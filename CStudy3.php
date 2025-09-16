@@ -108,9 +108,13 @@ $columns = isset($_GET['cols']) ? (int)$_GET['cols'] : 0;
                 $val = $currentRow * $currentColumn;
 
                 if ($val % 2 != 0) {
+                    
                     echo "<td class='odd'>$val</td>";
+                    
                 } else {
+                    
                     echo "<td>$val</td>";
+                    
                 }
 
             }
