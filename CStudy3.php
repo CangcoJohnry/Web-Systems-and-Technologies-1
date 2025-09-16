@@ -53,10 +53,6 @@ $columns = isset($_GET['cols']) ? (int)$_GET['cols'] : 0;
             text-align: center;
         }
 
-        th {
-            background: #eee;
-        }
-
         .odd {
             background: yellow;
             font-weight: bold;
